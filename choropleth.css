@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  width: 100vw;
+  overflow: hidden;
+}
+.county {
+    stroke: white;
+    stroke-width: 0.25px;
+  }
+.county:hover {
+  fill: grey;
+  stroke: rgb(0, 0, 51);
+  stroke-width: 0.5px;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: grey;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+#legend {
+  margin: auto;
+}
+#info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
